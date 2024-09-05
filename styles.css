@@ -1,0 +1,256 @@
+header{
+  /* width: 100%; */
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 80px 24px 80px;
+}
+.logo{
+  font-size: 24px;
+}
+
+.navbar{
+  font-size: 24px;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 56px;
+  color: #282A3A
+}
+
+.explore-button{
+  display: flex;
+  border: none;
+  background-color: #6D1600;
+  padding: 16px 64px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 0px 24px 0px 24px;
+  gap: 16px;
+  padding: 24px 48px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+.icons{
+  display: flex;
+  gap: 16px;
+  
+}
+
+.icons img{
+  width: 24px;
+  height: 24px;
+}
+
+
+//body
+section.first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 936px;
+  padding-top: 80px;
+  gap: 80px;
+}
+
+.title{
+  padding: 80px;
+  text-align: center;
+  gap: 24px;
+  width: 631px;
+  height: 348px;
+  margin: 0 auto;
+}
+
+
+hr.first-hr{
+  width :80%;
+}
+hr.column{
+  padding:0;
+  margin:0;
+}
+
+.first-images{
+  padding-bottom: 80px;
+  gap: 80px;
+  padding-top: 24px;
+  width: 100%;
+  height: 100%;
+  gap: 16px; 
+  display: flex; 
+  justify-content: center; 
+}
+
+.second-section{
+  justify-content: center;
+  width: auto;
+  padding: 80px;
+  gap: 40px;
+  display: flex;
+
+  
+  
+}
+
+.second-section-items{
+  gap: 8px;
+  justify-content: center;
+  /* border-right-style: solid; */
+  text-align: center;
+}
+
+.third-section{
+  justify-content: center;
+  display: grid;
+  padding: 80px;
+  gap: 80px;
+}
+
+.third-section-items{
+  display: grid;
+  gap:8px;
+  width:auto;
+  height: auto;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.third-section-products{
+  gap: 24px;
+  
+
+}
+
+.product-nav{
+  display: flex;
+  background-color: #F6F6F6;
+  border-radius: 40px;
+  padding: 8px;
+  justify-content: space-between;
+  margin: auto;
+
+  
+  
+
+}
+
+.product-nav-items{
+  text-align: center;
+  padding: 16px, 40px;
+  border-radius: 40px;
+  width: 180px;
+  height: 61px;
+  gap:10px;
+  text-align: center;
+  margin:auto;
+  
+}
+
+.product-items{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  text-align: center;
+  
+}
+
+footer{
+  display: flex;
+  background-color: #282A3A;
+  padding: 80px;
+  gap:80px;
+  color: #ffff
+}
+
+.footer-logo{
+  height: 58px;
+  weight: 58px;
+ 
+}
+
+.footer-graph-1{
+  display:grid;
+  gap: 32px;
+}
+
+.footer-top{
+  display:flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.paragraph{
+  font-family: Inter, sans-serif;
+  color: #ffff;
+  width: 382px;
+ 
+}
+
+.footer-graph-2{
+  display: grid;
+  width: 100%;
+  height: auto;
+  gap: 40px;
+  color: #ffff;
+}
+
+.graph-2-content-1{
+  display:flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  color: #ffff;
+  gap: 24px;
+}
+
+.graph-2-content-2{
+  width: 100%;
+  height: auto;
+  gap: 24px;
+}
+
+.subscription-form {
+  display: flex;
+  background-color: #FFFFFF14;
+  border-radius: 6px;
+  padding: 8px 24px;
+  gap: 20px;
+}
+
+.subscription-input {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width:100%
+}
+
+.subscription-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.subscription-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF66;
+}
+
+.subscribe-button {
+  border: none;
+  background-color: #6D1600;
+  padding: 16px 64px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
