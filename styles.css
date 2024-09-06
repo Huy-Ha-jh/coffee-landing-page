@@ -486,23 +486,61 @@ hr.column{
   border-radius: 8px;
 }
 
+
+
 footer{
   display: flex;
+  width: 100%;  /* Ensures full width of viewport */
+  max-width: 100%;
   background-color: #282A3A;
   padding: 80px;
-  gap:80px;
-  color: #ffff
+  gap: 80px;
+  color: #ffff;
+  justify-content: space-evenly;
+  box-sizing: border-box; /* Ensures padding does not add to width */
+  margin: auto;
+  overflow-x: hidden; 
 }
+
+@media (max-width: 576px) {
+  footer {
+    flex-direction: column; /* Stack items vertically */
+    padding: 80px; /* Reduce padding */
+    gap: 80px; /* Smaller gap */
+  }
+
+ 
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    
+  }
+
+   .paragraph,  .footer-graph-2  {
+    display:grid;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
 
 .footer-logo{
   height: 58px;
-  weight: 58px;
+  width: 58px; 
  
 }
 
 .footer-graph-1{
   display:grid;
   gap: 32px;
+ 
 }
 
 .footer-top{
@@ -520,7 +558,7 @@ footer{
 
 .footer-graph-2{
   display: grid;
-  width: 100%;
+ 
   height: auto;
   gap: 40px;
   color: #ffff;
@@ -528,7 +566,7 @@ footer{
 
 .graph-2-content-1{
   display:flex;
-  width: 100%;
+
   height: auto;
   justify-content: space-between;
   color: #ffff;
@@ -536,7 +574,7 @@ footer{
 }
 
 .graph-2-content-2{
-  width: 100%;
+  
   height: auto;
   gap: 24px;
 }
@@ -578,11 +616,6 @@ footer{
 }
 /* Media Queries for Responsiveness */
 
-
-
-
-
-
 @media (max-width: 768px) {
 
   .navbar {
@@ -612,10 +645,7 @@ footer{
 
 
 
-  footer {
-    flex-direction: column;
-    align-items: center;
-  }
+
 
   .graph-2-content-1 {
     flex-direction: column;
@@ -724,16 +754,6 @@ footer{
     line-height: 26px;
   }
 
-
-  footer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-graph-1, .footer-graph-2 {
-    width: 100%;
-  }
-
   .graph-2-content-1 {
     flex-direction: column;
     align-items: center;
@@ -783,10 +803,6 @@ footer{
     line-height: 26px;
   }
 
-  .footer-top {
-    flex-direction: column;
-    text-align: center;
-  }
 
   .footer-logo {
     width: 40px;
