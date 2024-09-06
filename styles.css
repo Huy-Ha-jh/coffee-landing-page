@@ -143,15 +143,6 @@
   }
 }
 
-
-
-/*/////////////////////////////////////////////////////////////////////               */
-
-
-
-
-
-
 .explore-button{
   display: flex;
   border: none;
@@ -168,8 +159,7 @@
 }
 
 
-
-
+/*/////////////////////////////////////////////////////////////////////               */
 
 
 //body
@@ -232,6 +222,16 @@ hr.column{
 
 .second-section-items{
  
+  text-align: center;
+}
+
+
+.items-title{
+  font-family: Inter; 
+  width: 214px; 
+  height: 77px; 
+  font-size: 64px; 
+  line-height: 76.8px; 
   text-align: center;
 }
 
