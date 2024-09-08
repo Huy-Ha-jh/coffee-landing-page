@@ -30,6 +30,7 @@ body, html{
   align-items: center;
   padding: 24px 80px 24px 80px;
   gap: 80px;
+  margin: auto;
 
 }
 
@@ -44,9 +45,7 @@ body, html{
 .navbar {
   display: flex;
   gap: 56px;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
+  text-align: center;
   color: #282A3A;
   align-items: center; /* Align the items vertically in the middle */
   margin: auto;
@@ -295,16 +294,20 @@ body, html{
     line-height: 1.2;
     padding-top: 80px;
     padding-bottom: 40px;
+    font-size:55px;
     
   }
   .first-paragraph {
-    justify-content: center;
+    
+    width: 500px;
+    
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
-    padding: 160px;
+    padding: 170px;
     padding-top: 0;
     padding-bottom: 10px;
+   
 
 
   }
@@ -385,7 +388,7 @@ hr.column{
   color: #282A3A
 }
 
-.section-title-h1{
+.section-title-h1, .third-section-title-h1{
   width: 443px; 
   height: 43px; 
   font-family: 'Playfair Display'; 
@@ -575,7 +578,6 @@ hr.column{
 
 .fourth-section{
   display: grid;
-
   padding: 80px;
   gap: 80px;
 }
@@ -583,7 +585,6 @@ hr.column{
 .fourth-title{
   display: grid;
   gap:8px;
-
   justify-items: center;
   text-align: center;
   align-items: center;
@@ -593,9 +594,61 @@ hr.column{
   display: flex;
   justify-content: space-between;
   gap: 80px;
-
-  
 }
+
+.paragraph-content{
+  display: grid;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+@media(max-width: 720px){
+  .fourth-section{
+    display: flex;
+    text-align: center;
+   
+    max-width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  
+  .fourth-title{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .section-title-span {
+    margin: auto;
+  }
+
+  .third-section-title-h1{
+    width: 200px;
+    margin:auto;
+  }
+
+  .paragraph-content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  span.paragraph-content-des {
+    width: 200px;
+    height: auto;
+  }
+  img.img-1 {
+    width: 200px;
+    margin-right: auto;
+  }
+  img.img-2 {
+    width: 200px;
+    margin-right: auto;
+}
+}
+
+
+
+
+
 
 @media (max-width: 430px){
   .fourth-content{
@@ -646,11 +699,7 @@ hr.column{
   }
 }
 
-.paragraph-content{
-  display: grid;
-  justify-content: flex-start;
-  gap: 24px;
-}
+
 
 .content-img{
   display: flex;
@@ -994,10 +1043,7 @@ footer{
 
 
 @media (max-width: 768px) {
-  .fourth-section {
-    flex-direction: column;
-    text-align: center;
-  }
+
 
 
   .content-img {
