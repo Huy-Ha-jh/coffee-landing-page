@@ -49,13 +49,14 @@ body, html{
   color: #282A3A;
   align-items: center; /* Align the items vertically in the middle */
   margin: auto;
+  white-space: nowrap; 
 
 }
 
 .navbar-item {
   position: relative; /* To properly position the dropdown relative to the parent */
   cursor: pointer;
-  width: 85px;
+ 
   height: 24px;
   font-family: 'Inter';
   font-size: 20px;
